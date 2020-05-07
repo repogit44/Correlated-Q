@@ -1,15 +1,10 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Apr 12 19:58:34 2020
 
-@author: taotao
-"""
-
+# Packages
 from env import *
 import matplotlib.pyplot as plt
 from cvxopt import matrix, solvers
 
+# Minimax function
 def minmax(s,Q):
     '''
     Input: Q table, state
