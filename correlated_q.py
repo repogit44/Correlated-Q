@@ -1,16 +1,9 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Apr 12 20:00:20 2020
-
-@author: taotao
-"""
-
+# Packages
 from env import *
 import matplotlib.pyplot as plt
 from cvxopt import matrix, solvers
 
-
+# Function for uCEQ
 def uCEQ(s,Q1,Q2):
 
     Q1_flat = Q1[s].flatten()
